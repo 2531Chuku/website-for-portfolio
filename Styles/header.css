@@ -1,0 +1,65 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  padding: 2px 0px;
+
+  z-index: 100;
+  box-shadow: 0 0 4px #555555;
+}
+
+/* left section */
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+.left-side .percival-logo {
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* right section  */
+.nav-elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-elements ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-elements ul li {
+  position: relative;
+  margin: 10px;
+}
+
+/* styling links */
+
+.nav-elements ul li::before {
+  content: " ";
+  width: 0;
+  height: 3px;
+  background: #000;
+
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.25s transform 0.5s;
+  transform: scale(0);
+}
+
+.nav-elements ul li:hover::before {
+  width: 100%;
+  transform: scale(1);
+}

@@ -1,0 +1,48 @@
+hr {
+  width: 97%;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 15px;
+}
+.social-contact-nav{
+  width: 100px;
+}
+
+.social-contact-nav ul {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  float: right;
+}
+.social-contact-nav ul li {
+  margin: 5px;
+}
+
+.social-contact-nav ul li a img {
+  width: 20px;
+  transition: opacity 0.56ms;
+}
+
+.social-contact-nav ul li a img:hover {
+  opacity: 0.79;
+}
+
+/* left */
+.Update,
+.contact-via-email {
+  font-size: 14px;
+}
+/* right */
+.contact-via-email {
+  transition: opacity 0.56s;
+}
+.contact-via-email:hover {
+  opacity: 70;
+  color: rgb(99, 105, 100);
+  text-decoration: underline;
+}
