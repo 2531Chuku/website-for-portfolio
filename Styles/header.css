@@ -7,8 +7,8 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
-  padding: 2px 0px;
+  height: 80px;
+  padding: 10px;
 
   z-index: 100;
   box-shadow: 0 0 4px #555555;
@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3px;
+  padding: 5px;
 }
 
 .left-side .percival-logo {
@@ -42,6 +42,7 @@
 .nav-elements ul li {
   position: relative;
   margin: 10px;
+  padding: 5px;
 }
 
 /* styling links */

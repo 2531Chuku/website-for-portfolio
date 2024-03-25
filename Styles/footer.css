@@ -7,24 +7,23 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3px 15px;
+  padding: 5px;
 }
-.social-contact-nav{
-  width: 100px;
+.social-contact-nav {
+  width: 250px;
 }
 
 .social-contact-nav ul {
   display: flex;
   padding: 5px;
   align-items: center;
-  float: right;
 }
 .social-contact-nav ul li {
   margin: 5px;
 }
 
 .social-contact-nav ul li a img {
-  width: 20px;
+  width: 30px;
   transition: opacity 0.56ms;
 }
 
@@ -45,4 +44,15 @@ footer {
   opacity: 70;
   color: rgb(99, 105, 100);
   text-decoration: underline;
+}
+
+/* Copy writer */
+.copywriterContainer {
+  height: 50px;
+  color: #f8faf9;
+  background: #1f2839;
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
